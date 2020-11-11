@@ -31,13 +31,19 @@ input:focus {
 }
 
 img {
-    height: 50px;
+    height: 80px;
     
 }
 header {
     display: flex;
     justify-content: left;
     margin-bottom: 10%;
+}
+
+header p {
+    position: absolute;
+    left:40px;
+    top:20px;
 }
 
 .circle {
@@ -52,6 +58,7 @@ header {
     color: white;
     justify-content: center;
     align-items: center;
+    margin: 2%;
 }
 .container {
     display: flex;

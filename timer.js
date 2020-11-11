@@ -4,8 +4,11 @@ const circle = document.querySelector('.circle');
 let input = document.querySelector('.minutes');
 let count = 0
 
+circle.style.webkitAnimationPlayState = "paused";
+
 input.addEventListener('change', ()=>{
     count = input.value;
+    circle.style.webkitAnimationPlayState = "running";
     time.innerText = count
     if (count == 1){
         s.style.opacity = '0'  
