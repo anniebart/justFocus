@@ -13,16 +13,16 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>
-            <img src='cloud.png'>
-            <p>focus</p>
-        </header>
-        
+        <div class='focus'>
         <label for="minutes">how many minutes do you want to focus for?</label>
-        <input name='minutes' class='minutes'type='number' min=0>
+        <input name='minutes' class='minutes'type='number' min=1>
+    </div>
         <div class='container'>
-        <div class='circle'>just breathe</div></div>
-        <p><span class=time>0</span> minute<span class='additional-min'>s</span></p>
+        <div>
+        <div class='circle'>just breathe</div>
+      
+        <div class='rect'>
+        <p><span class=time>0</span> minute<span class='additional-min'>s</span></p></div></div></div>
         <h4> every time you move your mouse, the timer resets</h4>
         
         <script src="timer.js" async defer></script>

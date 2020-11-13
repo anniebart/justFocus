@@ -10,8 +10,8 @@
 
 body {
     font-family: Karla;
-    background-color: #B4D4E2;
-    color: #3C3B3B;
+    background-color: #F9F8F8;
+    color: #88AECA;
     text-align: center;
     font-size:20px;
 }
@@ -20,15 +20,21 @@ input {
     width:80px;
     padding:4px;
     border-radius:30px;
-    border: none;
+    border: 3px solid #88AECA;
     font-family: Karla;
     font-size: 20px;
 }
 
+label {
+    margin-bottom: 20px;
+    display: block;
+}
+
 input:focus {
     outline: none;
-    border: 2px solid yellow;
+    border: 3px solid #D5C674;
 }
+
 
 img {
     height: 80px;
@@ -50,15 +56,15 @@ header p {
     display: flex;
     height: 30vh;
     width: 30vh;
-    background-color: #3C3B3B;
+    border: 10px solid #88AECA;
     border-radius: 50%;
     animation: breathing;
     animation-iteration-count: infinite;
     animation-duration: 4s;
-    color: white;
+    
     justify-content: center;
     align-items: center;
-    margin: 2%;
+    margin: 5% 0%;
 }
 .container {
     display: flex;
@@ -67,4 +73,19 @@ header p {
 
 .additional-min {
     opacity:1;
+}
+
+.focus {
+    margin: 5% 0%;
+}
+
+div.rect {
+    margin: 10% 0;
+    background-color: #88AECA;
+    color: #F9F8F8;
+    padding: 12px;
+    border-radius: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: center;;
 }
