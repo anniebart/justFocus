@@ -31,12 +31,13 @@ input.addEventListener('change', ()=>{
              
              if(count ===0){
                 s.style.opacity = '1'  
+                time.innerText= 0
                 circle.innerHTML="you're done!"
                 circle.style.webkitAnimationPlayState = "paused";
                 clearInterval(startTimer)      
             }
             
-        }, 60000)
+        }, 1000)
     }
 
 });
