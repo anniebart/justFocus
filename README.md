@@ -16,3 +16,5 @@ Focusing on the breath is helpful to ground oneself and reduce anxiety. A lot of
 If you find yourself drifting away or losing focus, that's totally okay and normal. But rather than moving on to do something else, try mentally noting something like 'thinking' and return your attention to your breathing.
 
 With regular practice, I've noticed a lot less stress and feel a greater ability to focus on tasks for longer periods of time without distraction :)
+
+You can try it out [here](https://plain-zippy-jersey.glitch.me/)
